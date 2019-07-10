@@ -1,6 +1,6 @@
 {
   "name": "react-native-wechat-with-miniprogram-share",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "在react-native-wechat@1.9.10组件版本的基础上增加了小程序分享,支持在线和本地图片分享",
   "main": "index.js",
   "repository": {
