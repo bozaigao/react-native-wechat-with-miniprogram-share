@@ -6,7 +6,7 @@
 
 react-native link react-native-wechat-with-miniprogram-share链接Android和iOS原生模块
 
-### 使用方法同[react-native-wechat](https://github.com/yorkie/react-native-wechat),微信小程序分享参考以下代码
+### 其他使用方法同[react-native-wechat](https://github.com/yorkie/react-native-wechat),微信小程序分享参考以下代码
 ```javascript
 import * as WeChat from 'react-native-wechat-with-miniprogram-share';
 
