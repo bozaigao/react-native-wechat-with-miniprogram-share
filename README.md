@@ -42,4 +42,4 @@ export function shareToWXMiniProgram(id, title, thumb) {
 ```
 
 #### 分享效果图
-![分享效果图](./miniprogram_share.png)
+![分享效果图](./miniprogram_share1.png)      ![分享效果图](./miniprogram_share2.png)
