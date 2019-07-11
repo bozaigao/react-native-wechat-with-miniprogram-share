@@ -9,6 +9,7 @@ react-native link react-native-wechat-with-miniprogram-share链接Android原生�
 
 #### iOS端配置
 将react-native-wechat-with-miniprogram-share/ios/RCTWeChat.xcodeproj文件拖入ios项目Libraries,并在TARGETS=>Build Phases=>Link Binary With Libraries添加libWeChatSDK.a静态库文件.
+![iOS配置一](./iOS_step1.jpeg)       ![iOS配置二](./iOS_step2.jpeg)
 
 ### 其他使用方法同[react-native-wechat](https://github.com/yorkie/react-native-wechat),微信小程序分享参考以下代码
 ```javascript
