@@ -40,3 +40,6 @@ export function shareToWXMiniProgram(id, title, thumb) {
     });
 }
 ```
+
+#### 分享效果图
+![分享效果图](./miniprogram_share.png)
