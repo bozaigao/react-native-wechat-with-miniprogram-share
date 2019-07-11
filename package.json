@@ -1,49 +1,71 @@
 {
-  "name": "react-native-wechat-with-miniprogram-share",
-  "version": "1.0.2",
-  "description": "在react-native-wechat@1.9.10组件版本的基础上增加了小程序分享,支持在线和本地图片分享",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bozaigao/react-native-wechat-with-miniprogram-share.git"
+  "_from": "react-native-wechat-with-miniprogram-share",
+  "_id": "react-native-wechat-with-miniprogram-share@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-3+211lAjNPPwzMYoPV4wrm+96WNOV3kSPcEW8kjw7n9do8aX+eQAJ9G0iGZT3aVCafnX1jUag0+QZPxbijr81Q==",
+  "_location": "/react-native-wechat-with-miniprogram-share",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-wechat-with-miniprogram-share",
+    "name": "react-native-wechat-with-miniprogram-share",
+    "escapedName": "react-native-wechat-with-miniprogram-share",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-wechat-with-miniprogram-share/-/react-native-wechat-with-miniprogram-share-1.9.10.tgz",
+  "_shasum": "e9e26aba60ecf17d878a17047136cb8d223056bb",
+  "_spec": "react-native-wechat-with-miniprogram-share",
+  "_where": "/Users/heyanbei/Desktop/职卓三端项目/ZhiZhuoUser",
+  "author": {
+    "name": "Yorkie Liu",
+    "email": "yorkiefixer@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/bozaigao/react-native-wechat-with-miniprogram-share/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Yorkie Liu",
+      "email": "yorkiefixer@gmail.com"
+    },
+    {
+      "name": "Deng Yun",
+      "email": "tdzl2003@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "events": "1.0.2"
+  },
+  "deprecated": false,
+  "description": "react-native library for wechat app",
+  "homepage": "https://github.com/bozaigao/react-native-wechat-with-miniprogram-share#readme",
   "keywords": [
     "wechat",
     "react",
     "react-native",
     "react-component",
-    "ios",
-    "miniprogram-share",
-    "miniprogram"
+    "ios"
   ],
-  "author": {
-    "name": "bozaigao",
-    "email": "1054539528@qq.com"
-  },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bozaigao/react-native-wechat-with-miniprogram-share/issues"
+  "main": "index.js",
+  "name": "react-native-wechat-with-miniprogram-share",
+  "peerDependencies": {
+    "react-native": ">=0.40"
   },
-  "dependencies": {
-    "lodash": "^4.17.4",
-    "prop-types": "^15.5.10"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bozaigao/react-native-wechat-with-miniprogram-share.git"
   },
-  "devDependencies": {
-    "@commitlint/cli": "^6.1.0",
-    "@commitlint/config-conventional": "^6.1.0",
-    "babel-eslint": "^8.0.2",
-    "eslint": "^4.12.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-react": "^7.3.0",
-    "eslint-plugin-react-native": "^3.2.0",
-    "generate-changelog": "1.7.0",
-    "husky": "^0.14.3",
-    "idx": "2.2.0",
-    "lint-staged": "^5.0.0",
-    "minimist": "1.2.0",
-    "pre-commit": "^1.2.2",
-    "prettier": "^1.9.2",
-    "simple-git": "1.89.0"
+  "scripts": {
+    "test": "echo 1"
   },
-  "homepage": "https://github.com/bozaigao/react-native-wechat-with-miniprogram-share#readme"
+  "version": "1.9.10"
 }
