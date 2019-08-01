@@ -2,10 +2,10 @@ package com.theweflex.react;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
-import android.support.annotation.Nullable;
 import android.util.Log;
+
+import androidx.annotation.Nullable;
 
 import com.facebook.common.executors.UiThreadImmediateExecutorService;
 import com.facebook.common.references.CloseableReference;
@@ -44,9 +44,7 @@ import com.tencent.mm.opensdk.openapi.IWXAPI;
 import com.tencent.mm.opensdk.openapi.IWXAPIEventHandler;
 import com.tencent.mm.opensdk.openapi.WXAPIFactory;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.UUID;
 
@@ -97,11 +95,11 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
         modules.remove(this);
     }
 
-    public static void handleIntent(Intent intent) {
-        for (WeChatModule mod : modules) {
-            mod.api.handleIntent(intent, mod);
-        }
-    }
+   public static void handleIntent(Intent intent) {
+       for (WeChatModule mod : modules) {
+           mod.api.handleIntent(intent, mod);
+       }
+   }
 
     @ReactMethod
     public void registerApp(String appid, Callback callback) {
@@ -237,7 +235,7 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
         }
 
         if (imageUri == null) {
-            callback.invoke(null);
+//            callback.invoke(null);
             return;
         }
 
