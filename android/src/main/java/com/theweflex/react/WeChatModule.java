@@ -97,11 +97,11 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
         modules.remove(this);
     }
 
-//    public static void handleIntent(Intent intent) {
-//        for (WeChatModule mod : modules) {
-//            mod.api.handleIntent(intent, mod);
-//        }
-//    }
+    public static void handleIntent(Intent intent) {
+        for (WeChatModule mod : modules) {
+            mod.api.handleIntent(intent, mod);
+        }
+    }
 
     @ReactMethod
     public void registerApp(String appid, Callback callback) {
