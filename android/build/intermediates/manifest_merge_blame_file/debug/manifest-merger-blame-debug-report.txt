@@ -1,0 +1,29 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.theweflex.react"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml:4:5-78
+12-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml:5:5-75
+13-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml:5:22-73
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml:6:5-74
+14-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml:6:22-72
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml:7:5-80
+15-->/Users/heyanbei/Desktop/职卓三端项目/医点数据/E_Point/node_modules/react-native-wechat-with-miniprogram-share/android/src/main/AndroidManifest.xml:7:22-78
+16
+17</manifest>
